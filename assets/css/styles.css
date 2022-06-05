@@ -191,7 +191,7 @@
     width: fit-content;
   }
   .work {
-    margin:0 3.5%;
+    margin:0 1.5%;
     flex: 1;
   }
   .work-bio {
@@ -254,10 +254,10 @@
   }
   
   .contact-info p, .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 16px;
-    font-style: normal;
+    line-height: 1.7;
+      margin: 0 auto;
+      font-size: 20px;
+      text-align: center;
     color: var(--primary-color);
   }
   
@@ -339,30 +339,26 @@
       padding: 30px 15px;
     }
   
-    .step h3 {
+    .work h3 {
       flex: 1 100%;
       text-align: center;
     }
   
-    .step-info {
+    .contact-info {
       flex: 2 100%;
       text-align: center;
       justify-content: center;
     }
   
-    .step-img {
+    .work iframe {
       flex: 0 32%;
       margin-right: 0;
       margin-top: 15px;
       margin-bottom: 15px;
     }
   
-    .step-text {
+    .work p {
       flex: 100%;  
-    }
-  
-    .work-bio h3, .work-bio h4 {
-      display: block;
     }
   }
   
