@@ -116,7 +116,7 @@
     padding: 60px;
   }
   
-  /* HERO STYLES START */
+  /* HERO/ Welcome STYLES START */
   .hero {
     background-image: url('../images/Snapseed 7.jpg');
     background-size: cover;
@@ -172,7 +172,7 @@
   }
   /* SECTION TITLE STYLES END */
   
-  /* Welcome*/
+  /* About Me Section */
   .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
@@ -181,7 +181,7 @@
     font-size: 20px;
     text-align: center;
   }
-  /* End of Welcome */
+  /* End of About Me */
  
   /* MEET THE TRAINERS START */
   .works {
