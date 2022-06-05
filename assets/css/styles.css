@@ -129,11 +129,8 @@
   }
   .hero-cta {
     width: 80%;
-    text-align: center;
     margin: 3.5%;
     color: var(--primary-color);
-    font-size: 18px;
-    line-height: 1.2;
   }
   .hero-cta h2 {
     font-style: italic;
@@ -143,12 +140,11 @@
   }
   .hero p {
       
-      line-height: 1.7;
-      margin: 0 auto;
-      font-size: 20px;
-      text-align: center;
-      
-    }
+    line-height: 1.7;
+    margin: 0 auto;
+    font-size: 18px; 
+  }
+ 
   /* HERO STYLES END */
   
   
@@ -173,12 +169,18 @@
   /* SECTION TITLE STYLES END */
   
   /* About Me Section */
+  
+  .intro {
+    color: var(--tertiary-color);
+    width: fit-content;
+    margin: 3.5%;
+    justify-content: space-evenly;
+    
+  }
   .intro p {
     line-height: 1.7;
-    color: var(--tertiary-color);
-    width: 80%;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
   /* End of About Me */
@@ -331,7 +333,6 @@
     .contact-info iframe{
       flex: 1 100%;
     }
-  }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
@@ -364,15 +365,13 @@
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
-    .hero-form button {
-      width: 100%;
-    }
   
     .section-title {
       width: 95%;
     }
+
   
-    .intro p {
+    .intro p, .hero p, .work p {
       width: 100%;
     }
   
@@ -387,9 +386,4 @@
     .contact-info > * {
       flex: 0 100%;
     }
-  
-    .contact-form {
-      order: 3;
-    }
   }
-  
