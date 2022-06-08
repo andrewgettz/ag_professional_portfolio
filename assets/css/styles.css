@@ -215,6 +215,15 @@
   .work iframe{
     width: 100%;
   }
+
+.iframe-runbuddy {
+  transition:transform 0.25s ease;
+}
+.iframe-runbuddy:hover{
+  -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+   
+}
   .work-link{
     font-style: italic;
     text-align: center;
@@ -253,10 +262,11 @@
   .contact-info h3 {
     color: var(--primary-color);
     font-size: 32px;
+    margin: 20px 0;
   }
   
   .contact-info p, .contact-info address {
-    line-height: 1.7;
+    line-height: 2.0;
       margin: 0 auto;
       font-size: 20px;
       text-align: center;
