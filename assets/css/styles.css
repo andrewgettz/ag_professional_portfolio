@@ -44,7 +44,7 @@
     border-radius: 50%;
   }
   
-  header a {
+  header h3 a {
     text-decoration: none;
     color: var(--primary-color);
   }
@@ -231,7 +231,7 @@
   }
   /* My Work Styles End */
   
-  /* REACH OUT STYLES START */
+  /* Contact STYLES START */
   .contact {
     background: var(--primary-color);
   }
@@ -282,7 +282,7 @@
   .contact-info a {
     color: var(--primary-color);
   }
-  /* REACH OUT STYLES END */
+  /* Contact STYLES END */
   
   /* UTILITIES */
   .text-left {
@@ -397,3 +397,5 @@
       flex: 0 100%;
     }
   }
+
+
